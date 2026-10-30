@@ -1,0 +1,11 @@
+name: Request to Join
+description: Request access to the organization
+title: "Request to Join"
+labels: ["join-request"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Click **Create** below to request access!
+        Your GitHub account is automatically attached to this request.
