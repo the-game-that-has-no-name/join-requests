@@ -4,8 +4,10 @@ title: "Request to Join"
 labels: ["join-request"]
 
 body:
-  - type: markdown
+  - type: checkboxes
+    id: confirm
     attributes:
-      value: |
-        Click **Create** below to request access!
-        Your GitHub account is automatically attached to this request.
+      label: Membership Request
+      options:
+        - label: I want to join the organization.
+          required: false
